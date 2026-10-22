@@ -30,6 +30,23 @@
           "NSLocalNetworkUsageDescription": "ClipRoam needs access to your local network to connect to your clipboard sync server."
         }
       }
+    },
+    {
+      "bundleIdentifier": "com.whilecode.sterm",
+      "versions": [
+        {
+          "version": "0.3.3",
+          "buildVersion": "0.3.3",
+          "date": "2026-10-22T04:11:30Z",
+          "localizedDescription": "### 新增\n\n- 新增远程桌面初版，支持 VNC、RDP 和 ARD（macOS）连接，可在标签页中操作远程画面，并使用键盘、鼠标、滚轮、全屏和手动重连。\n- 远程桌面支持调整刷新上限；VNC / ARD 可选择色深与 CopyRect，RDP 可选择连接分辨率。\n- 新增远程桌面剪贴板支持：VNC / ARD 可发送和读取文本，RDP 支持本机与远程之间复制粘贴文本、图片，并在 Windows 客户端支持文件传输。\n- 远程桌面工具栏新增 SFTP 文件管理窗口，可复用同主机已保存的 SSH 配置或单独登录，浏览目录并上传、下载文件。\n- 新增长命令结束通知，AI 执行的命令超过 10 秒后结束时可发送系统通知，并可在设置中开关。\n\n### 优化\n\n- 统一界面组件、主题与弹窗样式，调整连接表单、设置页和工作区布局。\n- 优化移动端会话导航、面板切换及 SFTP 工具栏，提升窄屏下的操作体验。\n- 优化远程桌面的增量画面传输与绘制，标签切换、窗口恢复和独立窗口迁移后自动恢复完整画面。\n\n远程桌面为初版，真实远程主机的兼容性与性能仍需进一步验证；文件管理需要远端启用 SSH / SFTP。",
+          "downloadURL": "https://github.com/while-coder/sterm/releases/download/v0.3.3/STerm_0.3.3_ios_unsigned.ipa",
+          "size": 8166131
+        }
+      ],
+      "name": "STerm",
+      "developerName": "while-coder",
+      "localizedDescription": "SSH / SFTP 终端与远程桌面客户端，支持多会话、文件传输、加密配置同步和 AI 终端助手。",
+      "iconURL": "https://raw.githubusercontent.com/while-coder/sterm/main/assets/sterm-icon.png"
     }
   ],
   "news": []
