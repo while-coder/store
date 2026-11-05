@@ -73,6 +73,29 @@
       "developerName": "while-coder",
       "localizedDescription": "SSH / SFTP 终端与远程桌面客户端，支持多会话、文件传输、加密配置同步和 AI 终端助手。",
       "iconURL": "https://raw.githubusercontent.com/while-coder/sterm/main/assets/sterm-icon.png"
+    },
+    {
+      "bundleIdentifier": "com.whilecode.gameemulator",
+      "versions": [
+        {
+          "version": "0.0.2",
+          "buildVersion": "0.0.2",
+          "date": "2026-11-05T01:16:22Z",
+          "localizedDescription": "### 触屏操作与界面\n\n- NES 与街机新增触屏布局编辑器，支持调整方向键大小，独立移动、缩放或隐藏操作按钮\n- 布局编辑支持保存后生效、返回放弃修改，以及重置当前横屏或竖屏布局\n- 统一 NES 与街机的工具栏、待机画面和设置界面，优化手机横竖屏布局与按钮尺寸\n- 街机存档列表新增按游戏名称搜索\n\n### 应用与安装\n\n- 应用名称支持跟随系统语言显示简体中文、繁体中文或英文，适配网页标题、桌面窗口及 Android、Android TV、iOS、macOS 应用名称\n- 网页版新增简体中文与繁体中文安装名称，更新 PWA 图标配置\n- 更新应用内检查更新、安装包下载与发布配置，使用 GameEmulator 仓库地址\n\n### 问题修复\n\n- 修复 WebKit 环境下街机缓存重写后游戏文件可能无法读取的问题，并在缓存失效时重新下载\n- 修复街机在 Retina 等高像素密度屏幕上画面可能被裁切的问题\n- 优化街机启动失败提示，区分模拟器资源加载失败与游戏包不兼容",
+          "downloadURL": "https://github.com/while-coder/GameEmulator/releases/download/v0.0.2/GameEmulator_0.0.2_ios_unsigned.ipa",
+          "size": 8000742
+        }
+      ],
+      "name": "GameEmulator",
+      "developerName": "while-coder",
+      "localizedDescription": "多平台游戏模拟器，支持 NES/FC、街机、触屏手柄与即时存档，可离线游玩。",
+      "category": "games",
+      "tintColor": "#C8102E",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "iconURL": "https://raw.githubusercontent.com/while-coder/store/main/sidestore/com.whilecode.gameemulator.png"
     }
   ],
   "news": []
