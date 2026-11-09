@@ -53,6 +53,15 @@
       "bundleIdentifier": "com.whilecode.sterm",
       "versions": [
         {
+          "version": "0.3.5",
+          "buildVersion": "0.3.5",
+          "date": "2026-11-09T12:35:02Z",
+          "localizedDescription": "### 新增\n\n- 新增 FTP 连接，支持目录浏览、文件上传下载、文件夹上传、新建目录、重命名及删除文件和空目录，可使用匿名或用户名 / 密码登录。\n- 新增 WebDAV 连接，支持 HTTP / HTTPS 目录地址、用户名 / 密码认证与匿名访问，可浏览目录、筛选排序、上传下载文件、新建目录和删除文件 / 空目录。\n- 连接列表支持在收藏和各分组内拖拽排序，也可通过右键 / 长按菜单上移、下移，调整后的顺序自动保存。\n- 移动端远程桌面新增沉浸全屏与悬浮菜单，可唤起软键盘、切换触控方式和退出全屏；Android 支持横竖屏切换、隐藏系统栏，并可通过返回键退出全屏。\n\n### 优化\n\n- FTP、WebDAV、OSS 和 S3 支持拖入本机文件或文件夹上传，文件夹上传保留目录结构和空目录；分屏时上传到鼠标所在的文件面板。\n- FTP、WebDAV、OSS 和 S3 的上传下载接入统一传输队列与并发上限，会话底部可查看任务状态、取消排队、重试失败任务和清理已完成记录。\n- 远程桌面直接触控支持按住拖动，触控板模式支持长按后拖动，双指滚动时自动释放拖动状态。\n- 精简应用菜单，减少与会话工具栏、标签页菜单重复的操作入口。\n\n### 修复\n\n- 修复 iOS 终端使用软键盘快速输入时可能丢失字符的问题。\n- 修复 iOS / macOS 远程桌面连接后可能黑屏的问题，并压缩较大的画面数据以减少传输开销。\n\nFTP 当前仅支持明文协议，不支持 FTPS；FTP、WebDAV、OSS 和 S3 的传输列表暂不显示实时字节进度，也不支持取消正在运行的任务。",
+          "downloadURL": "https://github.com/while-coder/sterm/releases/download/v0.3.5/STerm_0.3.5_ios_unsigned.ipa",
+          "size": 9133893,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.3.4",
           "buildVersion": "0.3.4",
           "date": "2026-10-23T10:23:42Z",
@@ -72,7 +81,7 @@
       "name": "STerm",
       "developerName": "while-coder",
       "localizedDescription": "SSH / SFTP 终端与远程桌面客户端，支持多会话、文件传输、加密配置同步和 AI 终端助手。",
-      "iconURL": "https://raw.githubusercontent.com/while-coder/sterm/main/assets/sterm-icon.png"
+      "iconURL": "https://raw.githubusercontent.com/while-coder/store/main/sidestore/com.whilecode.sterm.png"
     },
     {
       "bundleIdentifier": "com.whilecode.gameemulator",
