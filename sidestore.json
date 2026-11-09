@@ -78,6 +78,14 @@
       "bundleIdentifier": "com.whilecode.gameemulator",
       "versions": [
         {
+          "version": "0.0.3",
+          "buildVersion": "0.0.3",
+          "date": "2026-11-09T12:18:44Z",
+          "localizedDescription": "### 触屏操作与问题修复\n\n- 优化街机摇杆的八方向判定，减少推动距离变化时误触斜方向的问题\n- 修复街机摇杆与按键在触摸中断、切换应用或调整窗口大小后可能保持按下状态的问题\n- 修复街机触屏布局中摇杆与按键重叠时，按键触摸可能被摇杆抢占的问题\n- 禁用页面缩放、长按菜单及非输入区域的文字选择与拖拽，减少浏览器手势对游戏操作的干扰\n\n### 应用更新与安装\n\n- 应用与网页版新增本版本更新内容弹窗，关闭后同一版本不再重复展示\n- 优化桌面版与 Android 版启动时的自动更新检查，优先展示新版本更新提示\n- iOS 发布流程接入统一 SideStore 订阅源，自动同步应用版本、图标与更新说明",
+          "downloadURL": "https://github.com/while-coder/GameEmulator/releases/download/v0.0.3/GameEmulator_0.0.3_ios_unsigned.ipa",
+          "size": 8001359
+        },
+        {
           "version": "0.0.2",
           "buildVersion": "0.0.2",
           "date": "2026-11-05T01:16:22Z",
